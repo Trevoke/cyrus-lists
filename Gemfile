@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.1.1'
 
 gem 'rails', '4.0.2'
 gem 'jquery-rails', '2.0.3'
@@ -32,7 +32,6 @@ group :development, :test do
   gem "rspec-rails", "~> 2.12.0"
   gem 'sqlite3'
   gem 'simplecov'
-  gem 'pry-debugger'
 end
 
 group :test do
